@@ -1,0 +1,37 @@
+{
+  "expo": {    
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#000",
+        "tabletImage": "./assets/splash-tablet.png"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hernandezmercadojorg.freeroom"
+    },
+    "web": {
+      "title": "Freeroom",
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Consiga habitaciones disponibles cercanas a ultima hora.",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Freeroom to use your location."
+        }
+      ]
+    ]
+  }
+}
