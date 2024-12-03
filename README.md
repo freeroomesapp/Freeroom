@@ -1,7 +1,7 @@
 # Freeroom
 Ejecutar la aplicacion desde un servidor local
 
-1. Instalar Node.js
+1. Instalar Node.js v20.15.1
 2. Instalar Metro
 
 Luego, para depurar la aplicacion a nivel local
